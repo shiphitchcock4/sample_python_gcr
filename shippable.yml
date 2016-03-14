@@ -38,25 +38,5 @@ integrations:
       
   
   
-  notifications:
-        - integrationName: email
-          type: email
-          recipients:
-            - vidya@shippable.com
-            - shiphitchcock2@gmail.com
-          on_success: always
-          on_failure: always 
-          on_start: always
-          on_pull_request: always
-          
-        - integrationName: ship-slack
-          type: slack
-          recipients:
-            - "#builds-vr"
-            - pvt2
-            - "@shiphitchcock2"
-          on_success: always
-          on_start: always
-          on_failure: always 
-          on_pull_request: always
+  
           
